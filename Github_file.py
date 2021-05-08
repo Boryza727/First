@@ -34,3 +34,18 @@ elif year % 200 == 0:
     print("Leap")
 else:
     print("Ordinary")
+    
+traffic_lights = ["green", "yellow", "red"]
+print("What colour do you see: green, yellow, red, or violet?")
+light = str(input())  # variable for color name
+if light in traffic_lights:
+    print("co sie stanie?")
+    if light == "green":
+        print("You can go!")
+    elif light == "yellow":
+        print("Get ready!")
+    else:
+        # if the lights are red
+        print("Just wait.")
+else:
+    print("No such traffic light color, do whatever you want")
