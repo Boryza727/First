@@ -17,3 +17,20 @@ while n <= number:
     print(n, "!")
     n += 1
 print("Completed, have a nice day IN A NEW BRANCH! ")
+print()
+print("Choose one of these words: ", "aa", "abab", "aac", "ba", "bac", "baba", "cac", "caac")
+dictionary = ["aa", "aac", "bac", "baba", "caac"]
+word = str(input())
+if word in dictionary:
+    print("This word is in dictionary")
+else:
+    print("This word is NOT in dictionary")
+print()
+print("Choose a year to check whether it is leap or ordinary")
+year = int(input())
+if year % 4 == 0 and year % 100 != 0:
+    print("Leap")
+elif year % 200 == 0:
+    print("Leap")
+else:
+    print("Ordinary")
