@@ -1,3 +1,4 @@
+#  MODYFIKACJA
 print("Hello! My name is Aid")
 print("I was created in 2020")
 print("Please, remind me your name")
@@ -16,4 +17,4 @@ n = 0
 while n <= number:
     print(n, "!")
     n += 1
-print("Completed, have a nice day!")
+print("Completed, have a nice day! ")
