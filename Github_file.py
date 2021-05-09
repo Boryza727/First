@@ -85,3 +85,13 @@ elif Sum / chicken >= 1:
         print(int(Sum / chicken), str("chicken"))
 elif (Sum / chicken) < 1:
     print("None")
+
+#  AXIS
+x = float(input())
+y = float(input())
+if x == 0 or y == 0:
+    print("It's the origin!" if x == 0 and y == 0 else "One of the coordinates is equal to zero!")
+elif x > 0:
+    print("I" if y > 0 else "IV")
+elif x < 0:
+    print("II" if y > 0 else "III")
