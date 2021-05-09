@@ -95,3 +95,23 @@ elif x > 0:
     print("I" if y > 0 else "IV")
 elif x < 0:
     print("II" if y > 0 else "III")
+
+ #  FUNCTION DEFINITION AND INFOKING   
+def calculator(x, y, operation):
+    if (operation == "/" and y == 0.0) or (operation == "mod" and y == 0.0) or (operation == "div" and y == 0.0):
+        print("Division by 0!")
+    elif operation == "+":
+        print(x + y)
+    elif operation == "-":
+        print(x - y)
+    elif operation == "/":
+        print(x / y)
+    elif operation == "*":
+        print(x * y)
+    elif operation == "mod":
+        print(x % y)
+    elif operation == "pow":
+        print(x ** y)
+    elif operation == "div":
+        print(x // y)
+calculator(5, 10, "*")
