@@ -115,3 +115,9 @@ def calculator(x, y, operation):
     elif operation == "div":
         print(x // y)
 calculator(5, 10, "*")
+
+# RANDOM SEED
+import random
+n = int(input())
+random.seed(n)
+print(random.choice("Voldemort"))
