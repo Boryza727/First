@@ -133,3 +133,16 @@ random.seed(43)
 random.shuffle(sentence)
 # shows the message
 print(' '.join(sentence))
+
+# Random
+import random
+print("H A N G M A N")
+print("Guess the word:")
+x = str(input())
+words = ['python', 'java', 'kotlin', 'javascript']
+random.seed()
+y = random.choice(words)
+if x == y:
+    print("You survived!")
+else:
+    print("You lost!")
