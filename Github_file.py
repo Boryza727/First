@@ -146,3 +146,20 @@ if x == y:
     print("You survived!")
 else:
     print("You lost!")
+    
+    
+# `random + while
+import random
+print("H A N G M A N")
+print("Guess the word:")
+words = ['python', 'java', 'kotlin', 'javascript']
+while 1 > 0:
+    random.seed()
+    y = random.choice(words)
+    x = str(input())
+    if x == y:
+        print("You survived!")
+        break
+    else:
+        print("You lost! Try one more time")
+    continue
