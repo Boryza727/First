@@ -199,4 +199,8 @@ whitespace_string.strip()  # "hey"
 # delete all trailing "i" and "s" from both sides
 normal_string.strip("is")  # "ncomprehensibilitie"
 
-
+# USUWANIE POSZCZEGÓLNYCH ZNAKÓW JEDNĄ LINIJKĄ
+text = input()
+for i in "?!,.":
+    text = text.replace(i, "")
+print(text.lower())
