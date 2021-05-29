@@ -169,3 +169,34 @@ while 1 > 0:
 nickname = input()
 profession = input()
 print(f'http://example.com/{nickname}/desirable/{profession}/profile')
+
+# PARSING
+word = input()
+print(word.strip("*_~`"))
+
+print(message.replace("Paris", "Lyon"))  # bonjour and welcome to Lyon!
+replaced_message = message.replace("o", "!", 2)
+
+
+whitespace_string = "     hey      "
+normal_string = "incomprehensibilities"
+
+# delete spaces from the left side
+whitespace_string.lstrip()  # "hey      "
+
+# delete all "i" and "s" from the left side
+normal_string.lstrip("is")  # "ncomprehensibilities"
+
+# delete spaces from the right side
+whitespace_string.rstrip()  # "     hey"
+
+# delete all "i" and "s" from the right side
+normal_string.rstrip("is")  # "incomprehensibilitie"
+
+# no spaces from both sides
+whitespace_string.strip()  # "hey"
+
+# delete all trailing "i" and "s" from both sides
+normal_string.strip("is")  # "ncomprehensibilitie"
+
+
