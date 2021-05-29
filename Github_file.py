@@ -204,3 +204,13 @@ text = input()
 for i in "?!,.":
     text = text.replace(i, "")
 print(text.lower())
+
+# USUWANIE ZNAKÓW W PROSTY SPOSÓB
+text = input()
+text = text.lower()
+
+symbols = ",;:.¡!¿?@/*-+_"
+for char in symbols:
+    text = text.replace(char, '')
+
+print(text)
