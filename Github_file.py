@@ -163,3 +163,9 @@ while 1 > 0:
     else:
         print("You lost! Try one more time")
     continue
+
+    
+# DYNAMICZNE WSTAWIANIE TEKSTU
+nickname = input()
+profession = input()
+print(f'http://example.com/{nickname}/desirable/{profession}/profile')
