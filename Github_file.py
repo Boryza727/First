@@ -218,3 +218,19 @@ print(text)
 # ZAOKRĄGLANIE DO "F" MIEJSC PO PRZECINKU.
 amount = 3.252537
 print(f"The tax for {amount:.5f} dollars!")
+
+
+def check_email(string):
+    n = string.find("@")
+    if " " in string:
+        return False
+    elif "@." in string:
+        return False
+    elif "." not in string:
+        return False
+    elif "." not in string[n:]:
+        return False
+    else:
+        return True
+print(check_email(input()))
+
