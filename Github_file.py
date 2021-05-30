@@ -214,3 +214,7 @@ for char in symbols:
     text = text.replace(char, '')
 
 print(text)
+
+# ZAOKRĄGLANIE DO "F" MIEJSC PO PRZECINKU.
+amount = 3.252537
+print(f"The tax for {amount:.5f} dollars!")
