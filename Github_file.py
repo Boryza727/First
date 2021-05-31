@@ -234,3 +234,20 @@ def check_email(string):
         return True
 print(check_email(input()))
 
+# HANGMAN CD.
+import random
+print("H A N G M A N")
+word = ["python", "java", "kotlin", "javascript"]
+random.seed()
+x = random.choice(word)
+y = len(x)
+z = y - 3
+print("Guess the word", x[0:3]+(z*"-")+":")
+guess = input()
+if guess == x:
+    print("You survived!")
+else:
+    print("You lost!")
+    
+    
+
