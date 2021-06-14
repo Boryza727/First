@@ -250,4 +250,13 @@ else:
     print("You lost!")
     
     
+a = int(input())
+b = int(input())
+times = 0
+for number in range(a, b + 1):
+    if number % 3 == 0:
+        number += number
+        times += 1
+print(number / times)
+
 
